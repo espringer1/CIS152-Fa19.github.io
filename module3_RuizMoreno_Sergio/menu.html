@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Menu | Donut Delights</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="The menu of Donut Delights.">
+    <meta name="keywords" content="menu, items, food items, pastries items, menu page, treats, danish, bread, eclair, muffin">
+    <link rel="shortcut icon" href="images/favicon.gif">
+    <link rel="stylesheet" href="stylesheets/menu.css">
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+</head>
+<body>
+    <header>
+        <nav class="nav_menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#storytime">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <img src="images/new_logo.png" alt="Donut Delights logo">
+    </header>
+    <main>
+       <div class="firstbox">
+        <h1>Menu</h1>
+        <h2>Bakers dozen donuts regular&#58;</h2>
+        <p>chocolate frosted&#44; vanilla frosted&#44; boston cream&#44; jelly filled&#44; cream filled&#44; glazed&#44; chocolate glazed&#44; marble twist&#44; sugar raised&#44; plain donut&#44; plain cruller&#44; honey wheat&#44; jelly puff&#44; cream puff&#44; coffee roll&#46;</p>
+        <p id="price1">..........................................................(13)8.65</p>
+        <h3>Regular donut regular donuts&#58;</h3>
+        <p>chocolate frosted&#44; vanilla frosted&#44; boston cream&#44; jelly filled&#44; cream filled&#44; glazed&#44; chocolate glazed&#44; marble twist&#44; sugar raised&#44; plain donut&#44; plain cruller&#44; honey wheat&#44; jelly puff&#44; cream puff&#44; coffee roll&#46;</p>
+        <p id="price2">................................................................1.05</p>
+        <h4>Fancy Donut fancy donuts&#58;</h4>
+        <p id="price3">bow tie&#44; &#233;clair&#44; apple turnover&#44; fancy coffee roll&#46;</p>
+        <h5>French Cruller</h5>
+        <p id="price4">................................................................2.00</p>
+        <h6>Top Sellers&#58;</h6>
+            <ul>
+                <li>Pistachio Pinwheels</li>
+                <li>Boston Cream Delights</li>
+                <li>Chcolate Confetti</li>
+                <li>Marshmallow Mayhems</li>
+                <li>French Twists</li>
+                <li>Bulls Horns</li>
+            </ul>
+        <p id="price5">..............................................................varies</p>
+        <img id="rightimg1" src="images/donuts_display3.jpeg" alt="Donut display">
+        <img id="rightimg2" src="images/donuts_display2.jpeg" alt="Donut display">
+        <img id="rightimg3" src="images/donut1.jpeg" alt="Strawberry donut">
+        <img id="rightimg4" src="images/french_twists.jpeg" alt="French twists, I think">
+       </div>
+       
+       <div class="secondbox">
+           <form id="border">
+               <p id="h1">Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
+               <p id="email2">E-Mail: <input type="text" id="email" placeholder="Please enter your e-mail." autofocus></p>
+               <p><input type="submit" id="submit" value="Subscribe!"></p>
+           </form>
+           <div id="comment">
+               <form id="border2">
+                   <p id="h2">I donut know what I do with these lovely comments&#33;</p>
+                   <textarea id="title" rows="2" cols="4" onkeyup="Allow()" placeholder="Please leave a comment!"></textarea>
+                   <input id="submit2" type="submit" value="Post!" onclick="insert()">
+               </form>
+           </div>
+           <div id="display"></div>
+           <script>
+               var titles = [];
+               var titleInput = document.getElementById("title");
+               var messageBox = document.getElementById("display");
+               function Allow()
+               {
+                   if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+               {
+                   user.title.value="";
+                   alert("Please enter only alphabets!");
+               }
+                   window.location.reload()
+               }
+               function insert () {
+                   titles.push(titleInput.value);
+                   clearAndShow();
+               }
+               function clearAndShow ()
+               {
+                    titleInput.value = "";
+                    messageBox.innerHTML = "";
+                    messageBox.innerHTML +=" " + titles.join("<br/>") + "<br/>";
+               }
+           </script>
+       </div>
+        <nav class="nav_menu2">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#storytime">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        <img class="logoimg" src="images/new_logo.png" alt="Donut Delights logo">
+        </nav>
+    </main>
+</body>

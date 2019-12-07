@@ -1,0 +1,188 @@
+/* the styles for the elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background: #422b25 url("../images/background_image.png") repeat;
+}
+
+body {
+    padding: 5% 20%;
+}
+/* the styles for the navigation menu */
+.nav_menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #281200;
+    border: 0.4em solid #D3793A;
+    border-radius: 1em;
+}
+
+.nav_menu li {
+    padding: 0.781%; /* 15 / 1920 * 100 */
+    text-align: center;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #AD3C1E;
+}
+
+.nav_menu a:active {
+    color: #F5B142;
+}
+
+/* the styles for the header */
+header img {
+    position: absolute;
+    z-index: 1;
+    top: 5.125%; /* 60 / 1920 * 100 */ /* The logo was increased by +2%. */
+    left: 45.573%; /* 875 / 1920 * 100 */
+    max-width: 152px;
+    width: 100%;
+}
+
+header ul {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%; /* 20 / 1920 * 100 */
+}
+
+/* the styles for the main content */
+.location, .secondbox {
+    column-count: 2;
+    background-color: #281200;
+    color: white;
+    border: 0.4em solid #d4793a;
+    border-radius: 1em;
+    margin-top: 2.5em;
+}
+
+#map {
+    max-width: 606px;
+    width: 100%;
+    float: left;
+    border: 0;
+    border-right: 0.4em solid #d4793a;
+}
+
+main h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 260%;
+    text-align: left;
+    padding-top: 12.5em;
+    padding-left: 1em;
+}
+
+#socialmedia {
+    position: absolute;
+    z-index: 1;
+    top: 26.6%;
+    left: 65%;
+}
+
+#twitter, #instagram, #googleplus, #facebook {
+    max-width: 41px;
+    width: 100%;
+}
+
+main p, #link1, #link2{
+    font-family: Verdana, "Lucida Grande", sans-serif;
+    font-size: 130%;
+    line-height: 1.5;
+    padding-left: 3em;
+    text-decoration: none;
+}
+
+main a:link, main a:visited {
+    color: #AD3C1E;
+}
+
+main a:active {
+    color: #F5B142;
+}
+
+#building {
+    max-width: 660px;
+    width: 100%;
+    float: right;
+    border-left: 0.4em solid #d4794a;
+}
+
+main form {
+    padding-left: 5em;
+    padding-top: 2.5em;
+}
+
+#name {
+    margin-right: 0.8em;
+}
+#messege {
+    margin-top: 1em;
+    width: 86.3%;
+    height: 10em;
+}
+
+main h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 260%;
+    text-align: left;
+    padding-bottom: 0.2em
+}
+
+#button {
+    background-color: #422b25;
+    color: #f5b145;
+    padding: 1em;
+    font-weight: bold;
+    font-family: Verdana, "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-left: 19.2em;
+}
+
+/* the styles for the 2nd nav menu */
+.nav_menu2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #281200;
+    border: 0.4em solid #D3793A;
+    border-radius: 1em;
+    margin-top: 2.5em;
+}
+
+.nav_menu2 li {
+    padding: 0.781%; /* 15 / 1920 * 100 */
+    text-align: center;
+}
+
+.nav_menu2 a {
+    text-decoration: none;
+    color: #AD3C1E;
+}
+
+.nav_menu2 a:active {
+    color: #F5B142;
+}
+
+main ul {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%; /* 20 / 1920 * 100 */
+}
+
+.logoimg {
+    position: absolute;
+    z-index: 1;
+    top: 126%;
+    left: 45.573%;
+    max-width: 152px;
+    width: 100%;
+}

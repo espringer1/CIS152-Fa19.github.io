@@ -1,0 +1,201 @@
+/* the styles for the elements */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    max-width: 1920px;
+    height: 100%;
+    background: #422b25 url("../images/background_image.png") repeat;
+}
+
+body {
+    padding: 5% 20%;
+}
+
+/* the styles for the navigation menu */
+.nav_menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #281200;
+    border: 0.4em solid #D3793A;
+    border-radius: 1em;
+}
+
+.nav_menu li {
+    padding: 0.781%; /* 15 / 1920 * 100 */
+    text-align: center;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #AD3C1E;
+}
+
+.nav_menu a:active {
+    color: #F5B142;
+}
+
+/* the styles for the header */
+header img {
+    position: absolute;
+    z-index: 1;
+    top: 5.125%; /* 60 / 1920 * 100 */ /* The logo was increased by +2%. */
+    left: 45.573%; /* 875 / 1920 * 100 */
+    max-width: 152px;
+    width: 100%;
+}
+
+header ul {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%; /* 20 / 1920 * 100 */
+}
+
+/* the styles for the main content */
+.firstbox, .thirdbox, .fifthbox {
+    column-count: 2;
+    background-color: #281200;
+    color: white;
+    border: 0.4em solid #d3793a;
+    border-radius: 1em;
+    margin-top: 2.5em;
+}
+.leftimg, .leftimg2, .leftimg3 {
+    max-width: 605px;
+    width: 100%;
+    float: left;
+    border-right: 0.4em solid #d3793a;
+}
+
+main h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 260%;
+    padding-top: 11.4em;
+    text-align: center;
+}
+
+main p {
+    font-family: "Lucida Grande", Verdana, sans-serif;
+    font-size: 130%;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5;
+}
+
+main blockquote {
+    max-width: 304px;
+    width: 100%;
+    display: block;
+    background-color: #281200;
+    border: 0.4em solid #d3793a;
+    border-radius: 1em;
+    padding: 1em;
+    color: white;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+
+main object {
+    max-width: 304px;
+    width: 100%;
+    background-color: #281200;
+    border: 0.4em solid #d3793a;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+#vetsad {
+    max-width: 304px;
+    width: 100%;
+    background-color: #281200;
+    border: 0.4em solid #d3793a;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+.divider {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    margin-top: 2.5em;
+}
+
+#leftquote {
+    margin-right: 1em;
+}
+.secondbox, .fourthbox {
+    column-count: 2;
+    background-color: #281200;
+    color: white;
+    border: 0.4em solid #d3793a;
+    border-radius: 1em;
+    margin-top: 2.5em;
+}
+
+#rightimg, #rightimg2 {
+    max-width: 660px;
+    width: 100%;
+    float: right;
+    border-left: 0.4em solid #d3793a;
+}
+
+#story1 {
+    padding-top: 3.5em;
+}
+
+#story2 {
+    padding-top: 24em;
+}
+
+#story3 {
+    padding-top: 3.5em;
+}
+
+#story4 {
+    padding-top: 29em;
+}
+/* the styles for the second navigation menu */
+.nav_menu2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #281200;
+    border: 0.4em solid #D3793A;
+    border-radius: 1em;
+    margin-top: 2.5em;
+}
+
+.nav_menu2 li {
+    padding: 0.781%; /* 15 / 1920 * 100 */
+    text-align: center;
+}
+
+.nav_menu2 a {
+    text-decoration: none;
+    color: #AD3C1E;
+}
+
+.nav_menu2 a:active {
+    color: #F5B142;
+}
+
+main ul {
+    font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%; /* 20 / 1920 * 100 */
+}
+
+.logoimg {
+    position: absolute;
+    z-index: 1;
+    top: 303%;
+    left: 45.573%;
+    max-width: 152px;
+    width: 100%;
+}
