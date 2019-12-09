@@ -1,0 +1,136 @@
+body {
+  display: grid;
+  grid-template-columns: 15% 50% 10% 25%;
+  grid-template-rows: 6vw 15vw 20vw 15vw 6vw;
+  max-width: 100%;
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*header and navigation styles*/
+header {
+    grid-row: 1/2; grid-column: 1/2;
+    background: #1BA9CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5em;
+    border: none;
+}
+#headimg {
+    height: 4.3vw;
+}
+
+nav {
+    grid-row: 1/2; grid-column: 2/5;
+    background: #1BA9CC;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    font-family: "lato", sans-serif;
+    font-weight: bolder;
+    font-size: 1.5vw;
+    padding-top: 1em;
+}
+.nav {
+    color: #412115;
+}
+nav a {
+    text-decoration: none;
+    padding: 0.8em;
+}
+
+nav a:hover {
+    color: #F1C619;
+}
+
+/* section style */
+#s1 {
+    grid-row: 2/4; grid-column: 1/4;
+    margin: 1.5em 0 0 0.5em;
+}
+.s1-container {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.s1-container iframe{
+    left:0;
+    top:0;
+    height:80%;
+    width:90%;
+    position:absolute;
+    margin-left: 2em;
+}
+#s2 {
+    grid-row: 4/5; grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5em ;
+    font-family: "lato";
+    font-size: 1.7vw;
+    color: #F1C619;
+}
+#s2 p {
+    padding-left: 1em;
+    align-content: flex-start;
+}
+
+#button {
+    background-color: #F1C619;
+    font-size: 1.7vw;
+    font-weight: bolder;
+    padding: 14px 20px;
+    margin: 0 0 0 2.5em;
+    width: 100%;
+    border: none;
+    color: #412115;
+}
+
+/* aside style */
+aside { 
+    justify-content: space-evenly;
+    margin: 1em 0.5em ;
+
+}
+.a1-img {
+    grid-row: 2/3; grid-column: 4/5;
+    width: 85%;
+    height: 50%;
+    margin-top: 0.5em;
+    border: none;
+}
+#a2 {
+    grid-row: 3/5; grid-column: 4/5;
+    margin-right: 2.5em;
+    margin-top: 4em;
+    background: #F1C619;
+    opacity: 40%;
+    font-size: 1.6vw;
+    color: #412115;
+    padding-left: 0.9em;
+}
+#a2-title {
+    font-weight: bolder;
+    font-size: 1.7vw;
+    padding-left: 2.3em;
+}
+
+/* footer style */
+#foot {
+    grid-row: 5/6; grid-column: 1/5;  
+    display: block;
+    padding: 0.5em;
+    background: #F1C619;
+}
+#foot-container {
+    height: 100%;
+    float: right;
+    padding-right: 2em;
+}
+#foot-container img {
+    height: 70%;
+}
