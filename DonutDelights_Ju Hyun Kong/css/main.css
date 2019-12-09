@@ -3,7 +3,7 @@ body {
   grid-template-columns: 15% 50% 10% 25%;
   grid-template-rows: 6vw 15vw 20vw 15vw 6vw;
   max-width: 100%;
-  background-image: url(/img/background.png);
+  background-image: url(../img/background.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
