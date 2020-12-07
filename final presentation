@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Donut Delights's</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+	<header>
+		<img src="images/NEWLOGO.png" height="80" alt="logo">
+		<h2>The finest in breakfast treats and coffees since 1971</h2>
+
+	</header>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+            
+    	</ul>
+	</nav>
+    <main>
+		<section>
+			<h1>About Us</h1>
+			<p>Donut Delights was started in 1971 by Melvin Furballski, an immigrant of Poland. Known far and wide for his delicate pastries, Melvin fled his homeland in search of a better life for his family. In 1970 he landed in New York City and by chane he found an open seat on a bus heading west. when an enexpected mechanical failure forced a three day delay in Champaign Illinois, Furballski saw the need for a donut shop, so he decided to stay and make a new life for himself in Urbana, Illinois. With only one hundred dollars to his name, he found an abandoed breadshop and within two day he had one of a kind donuts flying off the racks faster than he could bake them and the have never slowed down. Now you can find that same great donut recipe plus dozens more still being made with the same love and care as when Donut Delights first opened.
+			
+			
+			A balery fire in the mid-1980s destroyed many of the shop's records...but NOT THE RECIPES. While many people might have viewed the fire as an excuse to quit, Melvin instead used it as an opportunity to reconfigure the interior deisgn, allowing him to add the coffee roastery section as well. So when you visit: It's the closest thing to "Breakfast Heaven" anywhere in the C-U area!</p>
+        </section>
+	
+      	<aside>
+			<h2>Our treats</h2>
+			<img src="images/bakery.jpg" height="190" alt="baker">
+			<img src="images/donutsInCase2.jpg" height="190" alt="donutincase">
+			<img src="images/donut-+-hot-coffee-2-copy1.jpg" height="190" alt="coffee">
+        </aside>
+    
+          <h3>Menu:</h3>
+          <p>Bakers Dozen Donuts regular donuts: chocalate frosted, vanilla      frosted, boston cream, jelly filled, cream filled, glazed, chocolate glazed, marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff, cream puff, coffee roll.
+          
+          Regular Donut regular donuts: chocolate frosted, vanilla frosted, boston cream, jelly filled, cream filled, glazed, chocolate glazed, marble twist, sugar raised, plain donut, plain cruller, honey wheat, jelly puff, cream puff, coffee roll.
+          
+          Fancy Donut fancy donuts: bow tie, enlcair, apple turnover, fancy coffee roll.
+          
+          French Cruller  </p>
+    
+    </main>
+	<footer>
+		<p>&copy; 2112 Main Steet, Urbana IL 61801 
+		          (217-555-1234
+		          
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12205.205437468174!2d-88.1886839!3d40.1132871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd7e99ef76ebd%3A0x84d14f3330700914!2s2112%20E%20Main%20St%2C%20Urbana%2C%20IL%2061802!5e0!3m2!1sen!2sus!4v1606885608221!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		          
+		          email: contact@donutdelights.com</p>
+	</footer>
+</body>
+</html>
